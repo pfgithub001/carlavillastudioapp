@@ -1,0 +1,140 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Milhojas",
+            "isUnitarian": false,
+            "paxList": [4,6,8,10],
+            "defaultPaxIndex": 2,
+            "priceList": [26,35,44,53],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena de crema pastelera y adornada de crema mantequilla y almendra tostada.",
+            "image": "milhojas-b.png"
+        },
+        {
+            "id": 2,
+            "name": "Frantxineta",
+            "isUnitarian": false,
+            "paxList": [4,6,8,10],
+            "defaultPaxIndex": 2,
+            "priceList": [22,28,36,40],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena de crema pastelera y adornada con azúcar galsseado y almendra tostada.",
+            "image": "frantxineta-b.png"
+        },
+        {
+            "id": 3,
+            "name": "Milhojas de Manzana",
+            "isUnitarian": false,
+            "paxList": [8],
+            "defaultPaxIndex": 0,
+            "priceList": [30],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena de crema pastelera y adornada con manzana asada.",
+            "image": "milhojas-manzana-b.png"
+        },
+        {
+            "id": 4,
+            "name": "Besugo de Nata",
+            "isUnitarian": false,
+            "paxList": [8],
+            "defaultPaxIndex": 0,
+            "priceList": [30],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena de nata, adornada con piñones azúcar galseado, nata y guinda.",
+            "image": "besugo-b.png"
+        },
+        {
+            "id": 5,
+            "name": "Brazo Gitano",
+            "isUnitarian": false,
+            "paxList": [8],
+            "defaultPaxIndex": 0,
+            "priceList": [32],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Bizcocho relleno de crema mantequilla, recubierto con almendra tostada y adornado con crema mantequilla.",
+            "image": "brazo-b.png"
+        },
+        {
+            "id": 8,
+            "name": "Corazón de Milhojas",
+            "isUnitarian": true,
+            "price": 17.00,
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena de crema pastelera y adornada de crema mantequilla y chocolate.",
+            "image": "corazon-b.png"
+        },
+        {
+            "id": 9,
+            "name": "Estrella de Chocolate",
+            "isUnitarian": false,
+            "paxList": [8],
+            "defaultPaxIndex": 0,
+            "priceList": [30],
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Tarta de hojaldre rellena y adornada con chocolate.",
+            "image": "estrella-b.png"
+        },
+        {
+            "id": 10,
+            "name": "Roscón de Reyes",
+            "isUnitarian": false,
+            "paxList": [4,8,10],
+            "defaultPaxIndex": 1,
+            "priceList": [25, 32, 40],
+            "isFillingOptional": true,
+            "noFillingPriceList": [18,25,32],
+            "hasFillingOptions": true,
+            "fillingList": ["Crema", "Nata"],
+            "description": "Bizcocho de azahar relleno de nata o crema y adornado con azúcar galseado y frutas confitadas.",
+            "image": "roscon-b.png"
+        },
+        {
+            "id": 11,
+            "name": "Brioche",
+            "isUnitarian": true,
+            "price": 2.50,
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Brioche de hojaldre adornado con pasas y almendra tostada.",
+            "image": "brioche-b.png"
+        },
+        {
+            "id": 12,
+            "name": "Palmeritas",
+            "isUnitarian": true,
+            "price": 35.00,
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Palmeritas de hojaldre y mantequilla. (Precio por Kilo)",
+            "image": "palmeritas-b.png"
+        },
+        {
+            "id": 20,
+            "name": "Jesuíta",
+            "isUnitarian": true,
+            "price": 2.00,
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Hojaldre relleno de crema pastelera y adornado con almendra tostada y azúcar galseado.",
+            "image": "jesuitas-b.png"
+        },
+        {
+            "id": 21,
+            "name": "Croissant",
+            "isUnitarian": true,
+            "price": 1.70,
+            "isFillingOptional":false,
+            "hasFillingOptions":false,
+            "description": "Croissant de hojaldre y mantequilla francesa",
+            "image": "croissants-b.png"
+        }
+    ]
+}

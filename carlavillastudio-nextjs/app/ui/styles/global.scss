@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'colors';
+
+//components
+@import 'components/landing';
+@import 'components/floating_menu';
+@import 'components/orders';
+@import 'components/product_configurator';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white-01;
+  margin: 0;
+  min-height: 1400px;
+}
+
+
+.myButton01 {
+  color: $white-01;
+  background: $blue-01;
+  border-radius: 5px;
+  padding: 10;
+  border: 1px $blue-01 solid;
+  transition: background .2s ease, color .2s ease;
+}
+
+.myButton01:hover {
+  background: $white-01;
+  color: $blue-01;
+}
+
+.addButton{
+  background-color: $blue-01;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+
+  span{
+      background-color: $white-01;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 1px;
+      width: 65%;
+  }
+  :nth-child(1){
+      transform:translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+.removeButton{
+  background-color: $blue-01;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+
+  span{
+      background-color: $white-01;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 1px;
+      width: 65%;
+  }
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Overlay {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0,0,0, .6);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+    .OverlayContent {
+        background: $white-01;
+        border-radius: 5px;
+
+        >*{
+          padding: 50px;
+        }
+    }
+}
+
+.OverlayActive {
+  opacity: 1;
+  visibility: visible;
+}
+

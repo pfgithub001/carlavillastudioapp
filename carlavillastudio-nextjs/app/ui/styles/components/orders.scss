@@ -1,0 +1,132 @@
+.orders-page{
+    .Container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+
+        .Products {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+            gap: 25;
+
+            .Product {
+                background-color: white;
+                border-radius: 5px;
+                padding: 20;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h2{
+                    font-weight: 800;
+                }
+                .bottom{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+        .OrderBasket {
+            background: white;
+            position: relative;
+            width: 400px;            
+            height: 100%;
+            .OrderBasketContainer {
+                padding: 20;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                min-height: 90vh;                
+                right: 0;
+
+                .Order {
+                    max-height: 80%;
+                    overflow-y: auto;
+                }
+
+                .EmptyBasket {
+                    color: $gray-02;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 70vh;
+
+                    .icon--cart {
+                        fill: $gray-02;
+                        width: 40px;
+                    }
+                }
+
+                .ProductList{
+
+                    .ProductItem{
+                        padding: 10;
+                        border-bottom: 1px $gray-01 solid;
+                    }
+                    
+                }
+                .Checkout {
+
+                    .Total {
+                        font-weight: 800;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: 5;
+
+                        span {
+                            width: 100%;
+                        }
+                        span:nth-child(2) {
+                            text-align: right;
+                        }
+                    }
+                    button {
+                        width: 100%;
+                    }
+                }
+
+                .ProductItem{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: nowrap;
+
+                    .left {
+                        display: flex;
+                        flex-direction: column;
+
+                        .quantitySelector {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 10;
+                            align-items: center;
+
+                            .removeButton, .addButton {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+
+                    .icon--trash{
+                        width: 40px;
+                    }
+                }
+            }
+            h2 {
+                font-weight: 800;
+            }
+        }
+    }
+    
+
+}
