@@ -17,7 +17,6 @@ export default function RootLayout({
       <body className={`${raleway.className} antialiased`}>
         <div className='myViewport relative'>
           {children}
-          <FloatingMenu />
         </div>
       </body>
     </html>
