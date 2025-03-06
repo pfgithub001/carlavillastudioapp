@@ -12,7 +12,7 @@ export default function RootLayout({
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Sther - Repostería Hojaldrada</title>
+      <title>Carlavilla Studio - Vestidos de novia</title>
     </head>
       <body className={`${raleway.className} antialiased`}>
         <div className='myViewport relative'>
