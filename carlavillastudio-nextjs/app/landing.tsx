@@ -10,7 +10,6 @@ export default function Landing(this: any) {
       <HomeText text="Improvisando cuidadosamente"/>
       <FormLink />
       <HomeText text="Artesanía, tejidos y cercanía"/>
-      <Footer />
     </section>
   )
 }

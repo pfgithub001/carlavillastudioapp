@@ -1,6 +1,7 @@
 import { hk_grotesk } from './ui/fonts';
 import './ui/styles/global.scss'
 import FloatingMenu from './floating_menu';
+import Footer from './c_footer';
 
 export default function RootLayout({
   children,
@@ -18,6 +19,7 @@ export default function RootLayout({
         <div className='myViewport relative'>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
