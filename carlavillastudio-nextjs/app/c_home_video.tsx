@@ -3,7 +3,7 @@ export default function HomeVideo () {
         <div className="HomeVideo">
             <div className="video-container relative w-full aspect-[16/9] hidden sm:block">
                 <video
-                    className="video-element w-full h-auto"
+                    className="video-element w-[100%] h-auto"
                     autoPlay
                     loop
                     muted
