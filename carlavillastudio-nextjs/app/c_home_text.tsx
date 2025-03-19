@@ -8,7 +8,7 @@ export default function HomeText () {
     });
 
     return (
-        <div className="HomeText">
+        <div className="HomeText z-10">
             <div
                 ref={ref}
                 className={`text-container flex center justify-center ${

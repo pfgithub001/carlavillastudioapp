@@ -6,7 +6,7 @@ export default function FormLink() {
             {/* Contenedor de la imagen */}
             <div className="absolute inset-0 w-full h-full overflow-hidden">
                 <Image
-                    src="/images/home/form_link_bg.webp" // Ruta de tu imagen
+                    src="/images/home/form_link_bg.jpg" // Ruta de tu imagen
                     alt="Fondo"
                     layout="fill" // Hace que la imagen llene todo el contenedor
                     objectFit="cover" // Asegura que la imagen cubra el contenedor sin distorsionarse
@@ -14,11 +14,13 @@ export default function FormLink() {
                 />
             </div>
             {/* Contenido principal */}
-            <div className="FormLink-containertext-center z-10  px-[50px]">
-                {/* Título */}
-                <h1 className="text-4xl md:text-6xl font-bold mb-4">¿Quieres contactar con nosotros?</h1>
-                {/* Botón */}
-                <button className="myButton01">
+            <div className="FormLink-container flex flex-col items-center px-[50px] z-10">
+                {/* Contenedor para el texto justificado a la izquierda */}
+                <div className="text-left w-full">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-4">¿Quieres contactar con nosotras?</h1>
+                </div>
+                {/* Botón centrado horizontalmente */}
+                <button className="myButton01 mx-auto">
                     Haz clic aquí
                 </button>
             </div>
