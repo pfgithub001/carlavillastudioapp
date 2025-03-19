@@ -28,6 +28,10 @@ const config: Config = {
         },
       },
     },
+    width: {
+      'f2': 'calc(100%/2)',
+      'f4': 'calc(100%/4)'
+    }
   },
   plugins: [require('@tailwindcss/forms'),nextui()],
 };

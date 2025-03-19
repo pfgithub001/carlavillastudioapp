@@ -1,8 +1,8 @@
 "use client"
 import React from 'react';
-import { useInView } from 'react-intersection-observer'
+import { useInView } from 'react-intersection-observer';
 
-export default function HomeText () {
+export default function HomeText({ text }: { text: string }) {
     const { ref, inView } = useInView({
         threshold: 0.5, // El 50% del elemento debe estar visible para activar la animación
     });
@@ -16,11 +16,11 @@ export default function HomeText () {
                 }`}
             >
                 <span
-                    className={`py-[200px] text-lg md:text-3xl opacity-0 transition-opacity duration-1000 ease-in-out ${
+                    className={`py-[200px] text-lg md:text-3xl font-light italic opacity-0 transition-opacity duration-1000 ease-in-out ${
                         inView ? 'opacity-100' : ''
                     }`}
                 >
-                    Improvisando cuidadosamente.
+                    {text}
                 </span>
             </div>
         </div>
