@@ -17,7 +17,7 @@ export default function FormLink() {
             <div className="FormLink-container flex flex-col items-center px-[50px] z-10">
                 {/* Contenedor para el texto justificado a la izquierda */}
                 <div className="text-left w-full">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4">¿Quieres contactar con nosotros?</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-4">¿Quieres contactar con nosotras?</h1>
                 </div>
                 {/* Botón centrado horizontalmente */}
                 <button className="myButton01 mx-auto">
