@@ -11,7 +11,7 @@ export default function FloatingMenu() {
 
   return (
     <nav
-      className={`myNavbar fixed top-5 left-5 ${
+      className={`myNavbar fixed top-5 left-5 z-10 ${
         isActive ? "myNavbar_active" : ""
       }`}
     >

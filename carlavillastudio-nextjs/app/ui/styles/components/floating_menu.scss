@@ -23,19 +23,21 @@
     .icon--logo {
         fill: $white-01;
         position:absolute;
-        bottom: 0;
-        opacity: 0;
+        bottom: 0px;
+        right: -10px;
         transition: opacity .5s ease 1s;
-        height: 35px;
-        width: 60px;
+        height: 25px;
+        width: 45px;
     }
 
     .hamburguer { 
-        height: 45px;
-        width: 45px;
-        bottom: 12px;
-        right: 12px;
+        height: 30px;
+        width: 30px;
+        bottom: 20px;
+        left: 14px;
+        opacity: 0;
         overflow: hidden;
+        transition: all .2s;
         cursor: pointer;
         span {
             position: absolute;
@@ -79,10 +81,8 @@
 
     }
 
-    .icon--logo{
-        opacity: 1;
-    }
     .hamburguer{
+        opacity: 1;
         span {
             transform: translateY(0px) !important;
         }

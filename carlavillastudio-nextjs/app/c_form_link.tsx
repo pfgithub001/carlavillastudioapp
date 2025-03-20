@@ -6,7 +6,7 @@ export default function FormLink() {
             {/* Contenedor de la imagen */}
             <div className="absolute inset-0 w-full h-full overflow-hidden">
                 <Image
-                    src="/images/home/form_link_bg.jpg" // Ruta de tu imagen
+                    src="/images/home/contacto.png" // Ruta de tu imagen
                     alt="Fondo"
                     layout="fill" // Hace que la imagen llene todo el contenedor
                     objectFit="cover" // Asegura que la imagen cubra el contenedor sin distorsionarse
