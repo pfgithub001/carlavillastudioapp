@@ -19,8 +19,6 @@ export function getFilesFromDirectory(directoryPath: PathLike): string[] {
 
 
 
-// Ejemplo de uso
-
 export default function FileReader() {
     const directoryPath = path.join(process.cwd(), 'public', '/images/editorial'); // Ruta relativa a la carpeta
     const files = getFilesFromDirectory(directoryPath);

@@ -20,6 +20,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <FloatingMenu />
       </body>
     </html>
   );

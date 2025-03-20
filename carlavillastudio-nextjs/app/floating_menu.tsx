@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import SvgLogo from "./ui/svg/logo";
+import Image from "next/image";
 
 export default function FloatingMenu() {
   const [isActive, setIsActive] = useState(false);
@@ -11,18 +11,24 @@ export default function FloatingMenu() {
 
   return (
     <nav
-      className={`myNavbar fixed bottom-5 right-5 ${
+      className={`myNavbar fixed top-5 left-5 ${
         isActive ? "myNavbar_active" : ""
       }`}
     >
       <ul className="m-5 text-2xl">
-        <li><a href="">01. Haz tu pedido.</a></li>
-        <li><a href="">02. Nuestras tartas.</a></li>
-        <li><a href="">03. Servicios.</a></li>
-        <li><a href="">04. Contáctanos.</a></li>
+        <li><a href="">01. Inicio.</a></li>
+        <li><a href="">02. Sobre mi.</a></li>
+        <li><a href="">03. Prensa.</a></li>
+        <li><a href="">04. Contácto.</a></li>
       </ul>
       <div className="logo mb-[40px] md:mb-[80px]">
-        <SvgLogo className="w-[170px] md:w-[170px] icon icon--logo m-5" />
+        <Image 
+          className="w-[170px] md:w-[170px] icon icon--logo m-5" 
+          src={'/images/logo/logo_black.png'}
+          alt="Carlavilla Studio Logo"
+          width={100}
+          height={100}
+        />
       </div>
       <div className="hamburguer absolute" onClick={toggleMenu}>
         <span></span>
