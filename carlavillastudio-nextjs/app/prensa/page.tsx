@@ -8,8 +8,8 @@ export default function Page() {
         {[...Array(5)].map((_, i) => (
             <div
             key={i}
-            className={`item w-full md:w-f2 ${
-                i % 2 !== 0 ? 'pt-[200px]' : ''
+            className={`item w-full md:w-f2 p-[20px] ${
+                i % 2 !== 0 ? 'md:pt-[200px]' : ''
             }`} // más espacio en los de la derecha
             >
             <Image
