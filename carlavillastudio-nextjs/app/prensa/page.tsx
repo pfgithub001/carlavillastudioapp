@@ -13,6 +13,7 @@ export default function Page() {
             }`} // más espacio en los de la derecha
             >
             <Image
+                className="md:w-[100%]"
                 src={`/images/prensa/example0${i + 1}.jpg`}
                 alt="Carlavilla Studio Prensa"
                 width={400}
