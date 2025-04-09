@@ -1,11 +1,13 @@
 import Image from "next/image";
 import SvgQuotation from '../ui/svg/quotation';
+import Navbar from "../c_navbar";
 
 export default function Page() {
   return (
     <div className="SobreMi">
+      <Navbar />
       <div className="sobre_mi_container p-[50px] md:max-w-[1600px] mx-auto">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row items-center mt-[100px]">
           <div className="md:w-f2">
             <Image
             className="md:p-[50px]"

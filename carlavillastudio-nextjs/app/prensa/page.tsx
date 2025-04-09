@@ -1,10 +1,12 @@
 import Image from "next/image";
 import SvgLink from "../ui/svg/link";
+import Navbar from "../c_navbar";
 
 export default function Page() {
   return (
     <div className="Prensa">
-        <div className="prensa_container flex flex-row flex-wrap md:w-[1200px] mx-auto">
+        <Navbar />
+        <div className="prensa_container flex flex-row flex-wrap md:w-[1200px] mx-auto pt-[150px]">
         {[...Array(5)].map((_, i) => (
             <div
             key={i}

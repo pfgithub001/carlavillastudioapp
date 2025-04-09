@@ -1,6 +1,9 @@
+import Navbar from "../c_navbar";
+
 export default function Page() {
   return (
     <div className="Contacto">
+        <Navbar />
         <div className="contacto_container w-[90%] md:w-[1200px] mx-auto py-[300px]">
             <p className="font-light text-xl">
             ¿Tienes una idea en mente? Nos encantará conocerte.

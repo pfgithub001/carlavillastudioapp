@@ -55,6 +55,19 @@ body {
   }
 }
 
+.hv_underline {
+  box-shadow: inset 0 -0px 0 $black-01;
+  transition: box-shadow 0.2s ease;
+}
+
+.hv_underline:hover {
+  box-shadow: inset 0 -1px 0 $black-01;
+}
+
+.my_underline{
+  box-shadow: inset 0 -1px 0 $black-01;
+}
+
 .removeButton{
   background-color: $blue-01;
   width: 30px;
