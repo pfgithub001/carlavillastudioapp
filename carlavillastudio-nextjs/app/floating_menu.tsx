@@ -17,10 +17,10 @@ export default function FloatingMenu() {
     >
       <ul className="m-5 text-2xl">
         <li><a href="/">01. Inicio.</a></li>
-        <li><a href="/sobre_mi">02. Sobre mi.</a></li>
+        <li><a href="/sobre_mi">02. Sobre mí.</a></li>
         <li><a href="/editorial">03. Editorial.</a></li>
         <li><a href="/prensa">04. Prensa.</a></li>
-        <li><a href="/contacto">05. Contácto.</a></li>
+        <li><a href="/contacto">05. Contacto.</a></li>
       </ul>
       <div className="logo mb-[40px] md:mb-[80px]">
         <Image 
