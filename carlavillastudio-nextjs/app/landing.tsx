@@ -5,7 +5,7 @@ import Footer from "./c_footer"
 
 export default function Landing(this: any) {
   return (
-    <section className="Landing">
+    <section className="Landing w-full">
       <HomeVideo />
       <HomeText text="Improvisando cuidadosamente"/>
       <FormLink />

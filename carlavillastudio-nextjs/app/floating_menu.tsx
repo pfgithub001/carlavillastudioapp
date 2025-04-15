@@ -25,7 +25,7 @@ export default function FloatingMenu() {
       <div className="logo mb-[40px] md:mb-[80px]">
         <Image 
           className="w-[170px] md:w-[170px] icon icon--logo m-5" 
-          src={'/images/logo/logo_black.png'}
+          src={'/images/logo/logo_white.png'}
           alt="Carlavilla Studio Logo"
           width={100}
           height={100}

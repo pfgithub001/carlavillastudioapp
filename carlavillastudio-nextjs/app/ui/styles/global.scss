@@ -19,6 +19,18 @@ body {
   margin: 0;
 }
 
+/* Estilo global para resetear el comportamiento de las imágenes */
+img {
+  overflow: visible !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Aseguramos que no haya clip en la imagen */
+img, picture {
+  object-fit: cover !important;
+  object-position: center !important;
+}
 
 .myButton01 {
   color: $white-01;

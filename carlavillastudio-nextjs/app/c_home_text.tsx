@@ -24,7 +24,7 @@ export default function HomeText({ text }: { text: string }) {
                     <SvgQuotation
                         className={'fill-gray-300 w-[50px] md:w-[100px] h-[50px] md:h-[100px] translate-x-[-0px] md:translate-x-[-100px]'}
                      />
-                    {text}
+                    {text}.
                 </span>
             </div>
         </div>

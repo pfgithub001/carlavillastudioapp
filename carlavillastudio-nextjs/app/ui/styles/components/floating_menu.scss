@@ -1,5 +1,5 @@
 .myNavbar {
-    background: linear-gradient(60deg, $white-01, #fafaff 40%);
+    background: linear-gradient(60deg, $black-01, #232323 40%);
     height: 70px;
     width: 70px;
     border-radius: 35px;
@@ -7,7 +7,7 @@
     transition: height 1s ease, width 1s ease 1s;
 
     ul {
-        color: $black-01;
+        color: $white-01;
         font-weight: 200;
         li{
             margin-bottom: 8px;
@@ -44,7 +44,7 @@
             display: inline-block;
             height: 3px;
             width: 100%;
-            background-color: $black-01;
+            background-color: $white-01;
             top: 50%;
             transition: all .2s;
         }

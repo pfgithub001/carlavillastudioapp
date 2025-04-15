@@ -16,7 +16,7 @@ export default function RootLayout({
       <title>Carlavilla Studio - Vestidos de novia</title>
     </head>
       <body className={`${hk_grotesk.className} antialiased`}>
-        <div className='myViewport relative'>
+        <div className='relative'>
           {children}
         </div>
         <Footer />
