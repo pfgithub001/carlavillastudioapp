@@ -6,6 +6,13 @@ export default function Page() {
         <Navbar />
         <div className="contacto_container w-[90%] md:w-[1200px] mx-auto py-[300px]">
             <div className="mt-[100px] pb-[20px] border-b border-gray-300">
+                Newsletter.
+            </div>
+            <div className="flex mt-[20px] font-light gap-[50px]">
+                <input type="text" placeholder="Email" />
+                <button className="myButton01">Inscribirme</button>
+            </div>
+            <div className="mt-[100px] pb-[20px] border-b border-gray-300">
                 Para contactar con nosotras.
             </div>
             <div className="flex mt-[20px] font-light gap-[50px]">
