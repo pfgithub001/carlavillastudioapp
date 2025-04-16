@@ -11,6 +11,7 @@ export default function ImageGallery() {
     const [overlayOpen, setOverlayOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+
     // Obtener archivos desde la API
     useEffect(() => {
         fetch('/api/files')
@@ -45,7 +46,7 @@ export default function ImageGallery() {
                                 style={{ transform: `translateX(${-translation}vw)` }}
                             >
                                 <Image
-                                    className="w-f2"
+                                    className="w-f2 cursor-pointer"
                                     src={`/images/editorial/${files[index]}`}
                                     alt="Carlavilla Studio Footage"
                                     width={1000}
@@ -53,7 +54,7 @@ export default function ImageGallery() {
                                     onClick={() => handleImageClick(files[index])}
                                 />
                                 <Image
-                                    className="w-f2"
+                                    className="w-f2 cursor-pointer"
                                     src={`/images/editorial/${files[index + 1]}`}
                                     alt="Carlavilla Studio Footage"
                                     width={1000}

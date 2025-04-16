@@ -43,14 +43,6 @@ export default function OverlayGallery({ files, initialImage, onClose }: Overlay
     ref={imageContainerRef}
     className="relative h-screen max-h-screen flex items-center justify-center"
   >
-    {/* Botón cerrar */}
-    <button
-      onClick={onClose}
-      className="absolute top-0 right-0 m-4 text-white z-50"
-    >
-      <X size={32} />
-    </button>
-
     {/* Imagen */}
     <div
     ref={imageContainerRef}
@@ -60,8 +52,8 @@ export default function OverlayGallery({ files, initialImage, onClose }: Overlay
     <Image
         src={`/images/editorial/${files[currentIndex]}`}
         alt="Imagen ampliada"
-        width={1000}
-        height={800}
+        width={500}
+        height={1000}
         className="object-contain max-h-screen w-auto"
         quality={30}
     />
