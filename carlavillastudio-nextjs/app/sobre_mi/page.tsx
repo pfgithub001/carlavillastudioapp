@@ -67,7 +67,7 @@ export default function Page() {
           <div className="flex items-start w-[100%] md:w-f2">
             <SvgQuotation className="w-[15%] md:w-[100px] fill-gray-300 translate-y-[-15px]" />
             <span className="text-3xl md:text-5xl font-extralight italic w-[85%] md:w-[720px]">
-            Durante el proceso de tu pieza, elegimos juntas las telas. Buscamos en diferentes rincones y lugares, con historia y de calidad, para que sean ÚNICAS y especiales
+            Durante el proceso de tu pieza, elegimos juntas las tejidos. Buscamos en diferentes rincones y lugares, con historia y de calidad, para que sean ÚNICAS y especiales
             </span>
           </div>
           <div className="mt-[50px] md:mt-[0px] md:m-[80px]">
@@ -93,6 +93,22 @@ export default function Page() {
             width={700}
             height={700}
             />
+          </div>
+        </div>
+        <div className="mt-[100px]">
+          <div className="flex items-start w-[100%]">
+            <SvgQuotation className="w-[15%] md:w-[100px] fill-gray-300 translate-y-[-15px]" />
+            <span className="text-3xl md:text-5xl font-extralight italic w-[100%]">
+              VALORES: Siempre improvisando cuidadosamente.
+            </span>
+          </div>
+          <div className="font-extralight text-xl mt-[50px]">
+            360º - Intentamos destacar la artesanía en todas sus vertientes. Colaboraciones con artesanos locales de cualquier disciplina que den un valor añadido, para generar sinergias. Llegar a la tradición y la cultura global. <br /><br />
+            SIMPLEZA TÉCNICA - Trabajar el patrón de manera concisa y técnica, da grandes resultados en diseños sencillos. <br /><br />
+            NUESTRA SEGUNDA PIEL - Sacar todo el jugo a los tejidos, haciendo entender a las clientas que es un elemento esencial en el diseño. Buscar tesoros y darles el valor e importancia que tienen de manera natural. <br /><br />
+            UNA MIRADA AL PASADO - Aprender y nutrirnos de la sabiduría adquirida por nuestros antepasados. Aprovechar sus conocimientos y técnicas es pura inspiración, buscando un PASADO CONTEMPORÁNEO. <br /><br />
+            ENCUENTRA LA PUNTADA A MANO - Detrás de cada prenda hay una persona, que trabaja con sus manos. Queremos darle valor al trabajo manual y único que se esconde detrás de los diseños, haciendo ver de manera clara las puntadas a mano. <br /><br />
+            SIÉNTETE TÚ MISMA - Tener la confianza en el proceso y haceros sentir parte. Que esa confianza lleve a un resultado en el que podáis ser vosotras mismas y sacar la mejor versión.
           </div>
         </div>
       </div>

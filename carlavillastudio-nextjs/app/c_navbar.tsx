@@ -17,7 +17,7 @@ export default function Navbar () {
                     <a className={`hv_underline ${pathname === '/prensa' ? 'my_underline' : ''}`} href="/prensa">PRENSA</a>
                     <a className={`hv_underline ${pathname === '/contacto' ? 'my_underline' : ''}`} href="/contacto">CONTACTO</a>                
                 </div>
-                <div className='w-auto text-right'><a className="hv_underline" href="">Pide tu cita.</a></div>
+                <div className='w-auto text-right'><a className="hv_underline" href="/contacto">Pide tu cita.</a></div>
             </div>
         </div>
     )
