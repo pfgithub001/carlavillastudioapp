@@ -1,0 +1,6 @@
+{
+  "branches": {
+    "production": "main",
+    "preview": "feature"
+  }
+}
