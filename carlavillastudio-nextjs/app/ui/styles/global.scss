@@ -31,6 +31,12 @@ img, picture {
   object-position: center !important;
 }
 
+input, textarea {
+  border-radius: 8px !important;
+  border: 1px rgb(179, 179, 179) solid !important;
+  font-weight: 300;
+}
+
 .myButton01 {
   color: $white-01;
   background: $black-01;
