@@ -28,7 +28,7 @@ export default function TuCita01({
 
   return (
     <div className="TuCita01 h-[650px] w-[900px] flex items-center overflow-y-hidden">
-      <div className="left w-[50%]">
+      <div className="left hidden md:inline-block w-[50%]">
         <Image
           src="/images/tu_cita/img01.jpg"
           alt="Imagen de perfil"
@@ -36,7 +36,7 @@ export default function TuCita01({
           height={700}
         />
       </div>
-      <div className="right w-[50%] flex items-center justify-center h-full">
+      <div className="right w-[100%] md:w-[50%] flex items-center justify-center h-full">
         <div className="text-center w-full">
           <span className="text-3xl">¡Hola! ¿Cómo te llamas?</span><br />
           <input

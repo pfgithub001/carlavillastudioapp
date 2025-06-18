@@ -18,7 +18,7 @@ export default function FullScreenBackground() {
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
           ¿Quieres contactar con nosotras?
         </h1>
-        <a href="/contacto"><button className="myButton01 font-light mt-4">Pide tu cita</button></a>
+        <a href="/tu_cita"><button className="myButton01 font-light mt-4">Pide tu cita</button></a>
       </div>
     </div>
   );

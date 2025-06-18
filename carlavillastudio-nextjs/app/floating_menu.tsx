@@ -21,6 +21,7 @@ export default function FloatingMenu() {
         <li><a href="/editorial">03. Editorial.</a></li>
         <li><a href="/prensa">04. Prensa.</a></li>
         <li><a href="/contacto">05. Contacto.</a></li>
+        <li><a href="/tu_cita">06. Pide tu cita.</a></li>
       </ul>
       <div className="logo mb-[40px] md:mb-[80px]">
         <Image 

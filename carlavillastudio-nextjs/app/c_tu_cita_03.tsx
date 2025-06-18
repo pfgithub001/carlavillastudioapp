@@ -25,29 +25,29 @@ export default function TuCita03({
 
   return (
     <div className="TuCita03 h-[650px] w-[900px] flex items-center overflow-y-hidden">
-<div className="left w-[50%] h-full relative overflow-hidden">
-  <video
-    className="h-full w-auto object-cover object-center scale-[1.1]" // Ajusta el zoom aquí si hace falta
-    autoPlay
-    loop
-    muted
-    playsInline
-  >
-    <source
-      src="/video/home_video_mb.mp4"
-      type="video/mp4"
-    />
-    Your browser does not support the video tag.
-  </video>
-</div>
+      <div className="left hidden md:inline-block w-[50%] h-full relative overflow-hidden">
+        <video
+          className="h-full w-auto object-cover object-center scale-[1.1]" // Ajusta el zoom aquí si hace falta
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source
+            src="/images/tu_cita/vid01.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
 
-      <div className="right w-[50%] flex items-center justify-center h-full">
+      <div className="right w-[100%] md:w-[50%] flex items-center justify-center h-full">
         <div className="text-center">
           <span className="text-3xl">¿Eres novia o invitada?</span><br />
-          <div className='mt-[50px]'>
+          <div className='mt-[50px] text-left max-w-fit mx-auto'>
             {options.map((option) => (
-              <div key={option.value}>
+              <div key={option.value} className="max-w-fit">
                 <label className="inline-flex items-center space-x-2 cursor-pointer font-light">
                   <input
                     type="radio"

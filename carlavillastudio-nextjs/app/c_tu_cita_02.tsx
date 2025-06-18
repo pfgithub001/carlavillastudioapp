@@ -29,7 +29,7 @@ export default function TuCita02({
 
   return (
     <div className="TuCita02 h-[650px] w-[900px] flex items-center overflow-y-hidden">
-      <div className="left w-[50%]">
+      <div className="left hidden md:inline-block w-[50%]">
         <Image
           src="/images/tu_cita/img02.jpg"
           alt="Imagen de perfil"
@@ -37,7 +37,7 @@ export default function TuCita02({
           height={700}
         />
       </div>
-      <div className="right w-[50%] flex items-center justify-center h-full">
+      <div className="right w-[100%] md:w-[50%] flex items-center justify-center h-full">
         <div className="text-center">
           <span className="text-3xl">¿Cuándo es el evento?</span><br />
           <DatePicker

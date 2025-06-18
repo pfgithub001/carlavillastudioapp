@@ -23,7 +23,7 @@ export default function TuCita06() {
           />
         </svg>
       </div>
-      <span className="w-[100%] text-3xl font-light">
+      <span className="w-[90%] text-3xl font-light">
         ¡Hemos recibido tu solicitud!<br />
         Te responderemos lo antes posible :)
       </span>
