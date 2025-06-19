@@ -9,6 +9,9 @@
     ul {
         color: $white-01;
         font-weight: 200;
+        height: 0;
+        overflow: hidden;
+        transition: display .2s;
         li{
             margin-bottom: 8px;
             opacity: 0;
@@ -64,6 +67,7 @@
     height: 350px;
     transition: width .5s ease, height .5s ease .5s;
     ul{
+        height: auto;
         li{
             opacity: 1;
             transform: translateY(0);
